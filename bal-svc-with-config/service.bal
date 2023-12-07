@@ -6,7 +6,7 @@ configurable string message = "Welcome";
 
 service / on new http:Listener(8090) {
     resource function get .() returns json {
-        json greetingMessage = {"from": "Choreo", "count": count, "message": message};
+        json greetingMessage = {"from": 'from, "count": count, "message": message};
         return greetingMessage;
     }
 }
