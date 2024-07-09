@@ -1,10 +1,10 @@
 import ballerina/log;
 import ballerina/time;
 
-configurable time:Date date = ?;
+configurable string greet = ?;
 configurable string message = "Hello";
 
 public function main() {
-    string welcomeMsg = "Hello World!, date" + date.toBalString();
+    string welcomeMsg = "Hello World!, date" + greet;
     log:printInfo(welcomeMsg);
 }
