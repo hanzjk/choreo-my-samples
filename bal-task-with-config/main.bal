@@ -1,5 +1,4 @@
 import ballerina/log;
-import ballerina/time;
 
 configurable string greet = ?;
 configurable string message = "Hello";
