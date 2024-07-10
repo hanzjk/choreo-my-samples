@@ -1,0 +1,54 @@
+openapi: 3.0.0
+info:
+  title: Webhook API
+  description: A simple webhook API example.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /webhook:
+    post:
+      summary: Receive a webhook event
+      description: Endpoint to receive webhook events.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                event:
+                  type: string
+                  example: test_event
+                data:
+                  type: string
+                  example: This is a test
+      responses:
+        "200":
+          description: Webhook received successfully
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Webhook received successfully
+        "400":
+          description: Failed to parse request body
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Failed to parse request body
+        "405":
+          description: Invalid request method
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Invalid request method
+        "500":
+          description: Failed to read request body
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Failed to read request body
