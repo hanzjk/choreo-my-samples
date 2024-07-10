@@ -37,7 +37,7 @@ func webhookHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Respond with a success message
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, "Webhook received successfully")
+	fmt.Fprintf(w, "Webhook received successfully v2")
 }
 
 func main() {
