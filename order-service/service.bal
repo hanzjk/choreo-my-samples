@@ -7,8 +7,8 @@ service /burger on new http:Listener(9087) {
     }
 }
 
-service /hr on new http:Listener(9040) {
+service /hr on new http:Listener(9042) {
     resource function get users() returns string|error {
-        return "users 9040 main non root";
+        return "users 9042 main non root";
     }
 }
