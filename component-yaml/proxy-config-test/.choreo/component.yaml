@@ -11,10 +11,8 @@ endpoints:
       - Project
     schemaFilePath: openapi.yaml
 proxy:
-  type: TEST
+  type: REST
   networkVisibilities:
     - Public
     - Project
   schemaFilePath: openapi.yaml
-  thumbnailPath: /inv-api/assets/thumbnail.png
-  docPath: /inv-api/assets/documents
