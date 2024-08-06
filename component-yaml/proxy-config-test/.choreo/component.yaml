@@ -11,7 +11,7 @@ endpoints:
       - Project
     schemaFilePath: openapi.yaml
 proxy:
-  type: REST
+  type: TEST
   networkVisibilities:
     - Public
     - Project
