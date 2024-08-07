@@ -8,7 +8,6 @@ endpoints:
     type: REST
     networkVisibilities:
       - Public
-      - Project
     schemaFilePath: openapi.yaml
 proxy:
   type: REST
