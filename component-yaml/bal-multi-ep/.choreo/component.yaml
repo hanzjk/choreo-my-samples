@@ -4,7 +4,7 @@ endpoints:
     displayName: Greeting Service
     service:
       basePath: /hello
-      port: 9066
+      port: 9068
     type: REST
     networkVisibilities:
       - Public
@@ -13,7 +13,7 @@ endpoints:
     displayName: Greeting Service Health
     service:
       basePath: /hz
-      port: 9044
+      port: 9048
     type: REST
     networkVisibilities:
       - Public
