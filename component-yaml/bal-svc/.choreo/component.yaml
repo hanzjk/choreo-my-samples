@@ -3,7 +3,7 @@ endpoints:
   - name: hello-svc
     displayName: Welcome Service
     service:
-      basePath: /hello
+      basePath: /hellov2
       port: 8090
     type: REST
     networkVisibilities:
