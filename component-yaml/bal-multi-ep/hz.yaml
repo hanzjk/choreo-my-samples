@@ -5,7 +5,7 @@ info:
 servers:
   - url: /hz
 paths:
-  /welcome:
+  /readiness:
     get:
       summary: "Get welcome message"
       operationId: "getWelcome"
