@@ -4,7 +4,7 @@ endpoints:
     displayName: Go Greeter Sample
     service:
       basePath: /
-      port: 9090
+      port: 9091
     type: REST
     networkVisibilities:
       - Public
