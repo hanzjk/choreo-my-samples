@@ -1,6 +1,6 @@
 schemaVersion: 0.9
 endpoints:
-  - name: hello-welcome-svc
+  - name: hello-svc
     displayName: Welcome Service
     service:
       basePath: /hello
