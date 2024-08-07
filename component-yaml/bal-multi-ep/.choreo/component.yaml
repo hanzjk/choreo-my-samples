@@ -1,0 +1,20 @@
+schemaVersion: 0.9
+endpoints:
+  - name: go-greeter
+    displayName: Greeting Service
+    service:
+      basePath: /hello
+      port: 9066
+    type: REST
+    networkVisibilities:
+      - Public
+    schemaFilePath: openapi.yaml
+  - name: go-greeter-health
+    displayName: Greeting Service Health
+    service:
+      basePath: /hz
+      port: 9044
+    type: REST
+    networkVisibilities:
+      - Public
+    schemaFilePath: openapi.yaml
