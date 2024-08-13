@@ -1,7 +1,6 @@
 schemaVersion: 0.9
 endpoints:
-  - name: StubsDigifact Estimation Api-ssudigifact estimation
-    displayName: Welcome Service
+  - displayName: Welcome Service
     service:
       basePath: /hellov2
       port: 8090
