@@ -1,6 +1,7 @@
 schemaVersion: 0.9
 endpoints:
-  - displayName: Welcome Service
+  - name: hello-svc1
+    displayName: Welcome Service dnhkashdksadkjaskdkdalsjldknakjnd
     service:
       basePath: /hellov2
       port: 8090
