@@ -5,7 +5,16 @@ endpoints:
     service:
       basePath: /hellov2
       port: 8090
-    type: RESt
+    type: REST
+    networkVisibilities:
+      - Public
+    schemaFilePath: openapi.yaml
+  - name: hello-svc
+    displayName: Welcome Service
+    service:
+      basePath: /hellov2
+      port: 8090
+    type: REST
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
