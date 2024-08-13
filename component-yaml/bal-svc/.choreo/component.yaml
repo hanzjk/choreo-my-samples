@@ -1,6 +1,6 @@
 schemaVersion: 0.9
 endpoints:
-  - name: hello-svc
+  - name: StubsDigifact Estimation Api-ssudigifact estimation
     displayName: Welcome Service
     service:
       basePath: /hellov2
