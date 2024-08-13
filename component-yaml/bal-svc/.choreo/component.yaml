@@ -3,9 +3,9 @@ endpoints:
   - name: hello-svc1
     displayName: 
     service:
-      basePath: /hellov2
+      # basePath: /hellov2
       port: 8090
-    type: REST
+    type: UDP
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
