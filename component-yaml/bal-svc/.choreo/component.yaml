@@ -1,10 +1,10 @@
 schemaVersion: 0.9
 endpoints:
   - name: hello-svc1
-    displayName: Welcome Service
-    # service:
-    #   basePath: /hellov2
-    #   port: 8090
+    displayName: ""
+    service:
+      basePath: /hellov2
+      port: 8090
     type: REST
     networkVisibilities:
       - Public
