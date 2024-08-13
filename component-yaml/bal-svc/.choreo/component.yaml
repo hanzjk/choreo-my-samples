@@ -1,7 +1,7 @@
 schemaVersion: 0.9
 endpoints:
   - name: hello-svc1
-    displayName: Welcome Service dnhkashdksadkjaskdkdalsjldknakjndddddddddd
+    displayName: Welcome Service
     service:
       port: 8090
     type: REST
