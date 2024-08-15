@@ -3,7 +3,7 @@ endpoints:
   - name: hello- svc1
     displayName: hello
     service:
-      basePath: /hellov2
+      basePath: /hellov 2
       port: 8090
     type: RESTs
     networkVisibilities:
