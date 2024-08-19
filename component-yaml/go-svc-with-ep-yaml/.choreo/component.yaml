@@ -3,9 +3,18 @@ endpoints:
   - name: hello-s vc1
     displayName: hello
     service:
+      basePath: /hel lov2
+      port: 8090000
+    type: RESTd
+    networkVisibilities:
+      - Publicss
+    schemaFilePath: openapi.yaml
+  - name: hello-s vc1
+    displayName: hello
+    service:
       basePath: /hellov2
       port: 8090
     type: REST
     networkVisibilities:
-      - Public
+      - Publics
     schemaFilePath: openapis.yaml
