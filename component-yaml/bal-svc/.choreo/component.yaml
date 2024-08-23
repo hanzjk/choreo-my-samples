@@ -1,11 +1,11 @@
 schemaVersion: 0.9
 endpoints:
-  - name: helloWorld
-    # displayName: hello
+  - name: hellowelcome-svc
+    # displayName: Welcome Service
     service:
-      basePath: /hellov 2
-      port: 8090
-    type: RESTs
+      basePath: /hello
+      port: 8089
+    type: REST
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
