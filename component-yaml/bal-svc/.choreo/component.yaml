@@ -29,6 +29,6 @@ dependencies:
       # +optional Environment variables injected to the component for connection configuration.
       env:
         # +required Key name of the connection configuration.
-        # - from: ServiceURL
-        #   # +required Environment variable injected to the container.
-        #   to: SERVICE_URL
+        - from: ServiceURL
+          # +required Environment variable injected to the container.
+          # to: SERVICE_URL
