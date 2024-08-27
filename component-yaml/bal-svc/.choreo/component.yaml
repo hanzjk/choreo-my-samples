@@ -23,7 +23,7 @@ dependencies:
   # +optional Defines the service references from the Internal Marketplace.
   serviceReferences:
     # +required Name of the service reference.
-    - name: choreo:///apiFirst/mttm/mmvhxd/ad088/v1/PUBLIC
+    - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1/PUBLIC
       # +required Name of the connection instance.
       # connectionConfig: 19d2648b-d29c-4452-afdd-1b9311e81412
       # +optional Environment variables injected to the component for connection configuration.
@@ -31,4 +31,7 @@ dependencies:
         # +required Key name of the connection configuration.
         - from: ServiceURL
           # +required Environment variable injected to the container.
-          # to: SERVICE_URL
+          to: SERVICE_URL
+        - from: ServiceURL
+          # +required Environment variable injected to the container.
+          to: 
