@@ -2,8 +2,8 @@
 version: 0.1
 endpoints:
 - name: Greeting Service
-  port: 9090
-  type: REST
-  networkVisibility: Project
-  context: /greeting
+  port: 9090000
+  type: RESTw
+  networkVisibility: Projectw
+  context: /gr eeting
   schemaFilePath: greeting_openapi.yaml
