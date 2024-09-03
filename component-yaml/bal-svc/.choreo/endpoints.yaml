@@ -5,5 +5,5 @@ endpoints:
     port: 9090
     type: UDP
     networkVisibility: Project
-    # context: /greeting
+    context: /greet_ing
     schemaFilePath: openapi.yaml
