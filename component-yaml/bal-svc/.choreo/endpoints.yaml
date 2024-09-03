@@ -5,5 +5,5 @@ endpoints:
     port: 9090000
     type: REST
     networkVisibility: Project
-    context: /greeting
-    # schemaFilePath: greeting_openapi.yaml
+    # context: /greeting
+    schemaFilePath: greeting_openapi.yaml
