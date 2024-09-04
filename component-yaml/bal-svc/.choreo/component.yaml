@@ -1,0 +1,11 @@
+schemaVersion: 0.9
+endpoints:
+  - name: hello- svc1
+    displayName: hello
+    service:
+      basePath: /hellov2
+      port: 8090
+    type: REST
+    networkVisibilities:
+      - Public
+    schemaFilePath: openapis.yaml
