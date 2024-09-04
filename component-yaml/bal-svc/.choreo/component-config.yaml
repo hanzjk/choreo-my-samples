@@ -1,6 +1,6 @@
 apiVersion: core.choreo.dev/v1beta1
 kind: ComponentConfig
-# spec:
+spec:
   # +optional Incoming connection details for the component (AKA endpoints).
   # inbound:
   #   # +required Unique name for the endpoint. (This name will be used when generating the managed API)
@@ -21,16 +21,16 @@ kind: ComponentConfig
   #     # The path should be relative to the Docker context.
   #     schemaFilePath: openapi.yaml
   # # +optional Outgoing connection details for the component.
-  # outbound:
-  # # +optional Defines the service references from the Internal Marketplace.
-  # serviceReferences:
-  #   # +required Name of the service reference.
-  #   - name: database:/apifirst/mttm/mmvhxd/ad088/v1.0/PUBLICs
-  #     # +required Name of the connection instance.
-  #     connectionConfig: 19d2648b-d29c-4452-afdd-1b9311e8142
-  #     # +optional Environment variables injected to the component for connection configuration.
-  #     env:
-  #       # +required Key name of the connection configuration.
-  #       - from: ServiceURL
-  #         # +required Environment variable injected to the container.
-  #         to: SERVICE_URL
+  outbound:
+    # +optional Defines the service references from the Internal Marketplace.
+    serviceReferences:
+      # +required Name of the service reference.
+      - name: database:/apifirst/mttm/mmvhxd/ad088/v1.0/PUBLICs
+        # +required Name of the connection instance.
+        connectionConfig: 19d2648b-d29c-4452-afdd-1b9311e8142
+        # +optional Environment variables injected to the component for connection configuration.
+        env:
+          # +required Key name of the connection configuration.
+          - from: ServiceURL
+            # +required Environment variable injected to the container.
+            to: SERVICE_URL
