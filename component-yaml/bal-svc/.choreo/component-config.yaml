@@ -9,10 +9,10 @@ spec:
       port: 9090
       # +required Type of traffic that the endpoint is accepting. For example: REST, GraphQL, etc.
       # Allowed values: REST, GraphQL, GRPC, TCP, UDP.
-      type: REST
+      type: RESTs
       # +optional Network level visibility of the endpoint. Defaults to Public
       # Accepted values: Project|Organization|Public.
-      networkVisibility: Public
+      networkVisibility: Publicx
       # +optional Context (base path) of the API that gets exposed via the endpoint.
       # This is mandatory if the endpoint type is set to REST or GraphQL.
       context: /greeting
@@ -25,9 +25,9 @@ spec:
     # +optional Defines the service references from the Internal Marketplace.
     serviceReferences:
       # +required Name of the service reference.
-      - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1.0/PUBLIC
+      - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1.0/PUBLICs
         # +required Name of the connection instance.
-        connectionConfig: 19d2648b-d29c-4452-afdd-1b9311e81412
+        connectionConfig: 19d2648b-d29c-4452-afdd-1b9311e8142
         # +optional Environment variables injected to the component for connection configuration.
         env:
           # +required Key name of the connection configuration.
