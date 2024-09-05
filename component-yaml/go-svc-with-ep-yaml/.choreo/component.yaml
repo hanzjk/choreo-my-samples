@@ -1,16 +1,7 @@
 schemaVersion: 0.9
 endpoints:
   - name: hello-svc1
-    displayName: hello updated
-    service:
-      basePath: /hellov2
-      port: 8090
-    type: REST
-    networkVisibilities:
-      - Publics
-    schemaFilePath: openapi.yaml
-  - name: hello-svc2
-    displayName: hello v2
+    displayName: hello
     service:
       basePath: /hellov2
       port: 8090
@@ -18,3 +9,12 @@ endpoints:
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
+  # - name: hello-svc2
+  #   displayName: hello v2
+  #   service:
+  #     basePath: /hellov2
+  #     port: 8090
+  #   type: REST
+  #   networkVisibilities:
+  #     - Public
+  #   schemaFilePath: openapi.yaml
