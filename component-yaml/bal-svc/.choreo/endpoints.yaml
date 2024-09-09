@@ -2,7 +2,7 @@
 version: 0.2
 endpoints:
   - name: Greeting Service
-    # port: 9090
+    port: 909
     type: REST
     networkVisibility: Project
     context: /greeting
