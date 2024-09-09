@@ -5,5 +5,5 @@ endpoints:
     port: 9099
     type: WS
     networkVisibility: Organization
-    context: greeting
+    context: /gree_ti-ng
     schemaFilePath: openapi.yaml
