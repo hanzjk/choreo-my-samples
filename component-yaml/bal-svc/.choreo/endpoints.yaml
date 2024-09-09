@@ -3,7 +3,7 @@ version: 0.1
 endpoints:
   - name: Greeting Service
     port: 9099
-    type: UDP
+    type: TCP
     networkVisibility: Project
     context: /greeting
     schemaFilePath: openapi.yaml
