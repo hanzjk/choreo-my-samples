@@ -1,8 +1,8 @@
 # +required Version of the endpoint configuration YAML
 version: 0.2
 endpoints:
-  # - name: Greeting Service
-  - port: 9090
+  - name: Greeting Service
+    # port: 9090
     type: REST
     networkVisibility: Project
     context: /greeting
