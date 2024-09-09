@@ -4,6 +4,6 @@ endpoints:
   - name: Greeting Service
     port: 9099
     type: WS
-    # networkVisibility: Project
+    networkVisibility: Project
     context: /greeting
     schemaFilePath: openapi.yaml
