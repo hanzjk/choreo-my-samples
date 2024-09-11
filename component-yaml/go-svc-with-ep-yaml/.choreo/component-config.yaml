@@ -11,7 +11,7 @@ spec:
     - name: Greeting Service2
       port: 9091
       type: GraphQL
-      networkVisibility: Organization
+      # networkVisibility: Organization
       context: /
       schemaFilePath: openapi.yaml
   outbound:
