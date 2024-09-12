@@ -16,12 +16,19 @@ spec:
       schemaFilePath: openapi.yaml
   outbound:
     serviceReferences:
-      - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1.0/PUBLIC
+      - name: choreo:///apifirst/mtGtm/mmvhKxd/ad088/v1.0/PUBLIC
         connectionConfig: 6d402ae3-925a-42F6-a62c-5a0bb94457dc
         env:
           - from: ServiceURL
             to: SERVICE_URL
-      - name: thirdparty:/apifirst/mttm/mmvhxd/ad088/v1.0/PUBLIC
+      - name: thirdparty:/apifiXrst/mttm/mmvhxd/ad088/v1.0/PUBLIC
+        connectionConfig: 6D402AE3-925A-42F6-A62C-5A0BB94458DC
+        env:
+          - from: ServiceURLK
+            to: SERVICE_URL
+          - from: ServiceURLk
+            to: SERVICE_URL
+      - name: databse:/apifiXrst/mttm/mmvKhxd/ad088/v1.0/PUBLIC
         connectionConfig: 6D402AE3-925A-42F6-A62C-5A0BB94458DC
         env:
           - from: ServiceURLK
