@@ -28,7 +28,7 @@ spec:
             to: SERVICE_URL
           - from: ServiceURLk
             to: SERVICE_URL
-      - name: databse:/apifiXrst/mttm/mmvKhxd/ad088/v1.0/PUBLIC
+      - name: database:/apifiXrst/mttm/mmvKhxd/ad088/v1.0/PUBLIC
         connectionConfig: 6D402AE3-925A-42F6-A62C-5A0BB94458DC
         env:
           - from: ServiceURLK
