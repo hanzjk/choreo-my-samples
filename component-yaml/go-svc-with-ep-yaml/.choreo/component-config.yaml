@@ -1,0 +1,16 @@
+apiVersion: core.choreo.dev/v1beta1
+kind: ComponentConfig
+spec:
+  inbound:
+    - name: Greeting Service
+      port: 9090
+      type: REST
+      networkVisibility: Public
+      context: /greeting
+      schemaFilePath: openapi.yaml
+    - name: Greeting Service2
+      port: 9091
+      type: REST
+      context: /
+      schemaFilePath: openapi.yaml
+
